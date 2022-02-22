@@ -112,7 +112,7 @@ $(".list-group").on("blur", "input[type='text']", function() {
     .val()
     .trim();
 
-  // get the parent ul's id attribute
+  // get the parent ul's id attributes
   var status = $(this)
     .closest(".list-group")
     .attr("id")
